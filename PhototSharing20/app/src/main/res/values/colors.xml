@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#A4D6795D</color>
+    <color name="purple_500">#A4D6795D</color>
+    <color name="purple_700">#A4D6795D</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_2">#F1F1F1</color>
+    <color name="login_input">#F2F2F2</color>
+    <color name="status_gray">#C4C4C4</color>
+    <color name="sex_gray">#80F1F1F1</color>
+</resources>

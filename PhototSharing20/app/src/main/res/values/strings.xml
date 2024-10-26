@@ -1,0 +1,29 @@
+<resources>
+    <string name="login">登录</string>
+
+    <string name="app_name"></string>
+    <string name="main_email_hint">请输入账号</string>
+    <string name="main_password_hint">请输入密码</string>
+    <string name="forget">忘记密码</string>
+    <string name="register">用户注册</string>
+    <string name="register_btn">注册</string>
+    <string name="sure_main_password_hint">请确认密码</string>
+    <string name="main">首页</string>
+    <string name="home">我的</string>
+    <string name="add">发布</string>
+    <string name="publish_title">填写标题会有更多赞哦~</string>
+    <string name="publish_text">添加正文</string>
+    <string name="submit_add_id">标记:</string>
+    <string name="submit_add_id_1">原创</string>
+    <string name="submit_add_id_2">非原创</string>
+    <string name="submit_add_id_3">禁临摹</string>
+    <string name="submit_add_id_4">禁商用</string>
+    <string name="changeInfo">修改信息</string>
+    <string name="setting">设置</string>
+    <string name="submit">发布</string>
+    <string name="logout">退出</string>
+    <style name="ToolbarTitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+</resources>

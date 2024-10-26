@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pictures">
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/header</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/header</item>
+        <item>@drawable/header</item>
+        <item>@drawable/header</item>
+    </string-array>
+
+    <string-array name="titles">
+        <item>Is Tomato a Vegetable or a Fruit?</item>
+        <item>Why do Clocks Run Clockwise?</item>
+        <item>Who Invented The Pen?</item>
+        <item>Abdul Kareem’s Forest</item>
+        <item>Is Tomato a Vegetable or a Fruit?</item>
+        <item>Why do Clocks Run Clockwise?</item>
+        <item>Who Invented The Pen?</item>
+        <item>Abdul Kareem’s Forest</item>
+    </string-array>
+
+    <string-array name="avatars">
+        <item>@drawable/header</item>
+        <item>@drawable/header</item>
+        <item>@drawable/header</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/avatar</item>
+        <item>@drawable/header</item>
+    </string-array>
+
+    <string-array name="authors">
+        <item>Chitra Padmanabhan</item>
+        <item>Rama Kumaraswamy Thoopal</item>
+        <item>Gargi Pant</item>
+        <item>Brishti Bandyopadhyay</item>
+        <item>Chitra Padmanabhan</item>
+        <item>Rama Kumaraswamy Thoopal</item>
+        <item>Gargi Pant</item>
+        <item>Brishti Bandyopadhyay</item>
+    </string-array>
+
+    <integer-array name="love">
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+
+    <string-array name="like">
+        <item>123</item>
+        <item>345</item>
+        <item>567</item>
+        <item>234</item>
+        <item>123</item>
+        <item>345</item>
+        <item>567</item>
+        <item>234</item>
+    </string-array>
+</resources>

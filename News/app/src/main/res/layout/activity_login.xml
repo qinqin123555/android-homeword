@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="48dp">
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:src="@drawable/ic_logo"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="48dp"
+        android:layout_height="50dp">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_margin="4dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/baseline_person_outline_24"/>
+        <EditText
+            android:id="@+id/et_Account"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentBottom="true"
+            android:inputType="text"
+            android:hint="Email/Accound"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:maxLines="1"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="4dp"
+            android:src="@drawable/baseline_lock_24"/>
+        <EditText
+            android:id="@+id/et_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentBottom="true"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:layout_marginStart="48dp"
+            android:layout_marginEnd="48dp"
+            android:maxLines="1"/>
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:id="@+id/iv_pwd_switch"
+            android:layout_marginBottom="6dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/baseline_visibility_off_24"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb_remember_pwd"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="8dp"
+            android:text="Remember Password"
+            android:layout_marginBottom="4dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"/>
+        <TextView
+            android:id="@+id/tv_sign_up"
+            android:text="Sign up"
+            android:textColor="@color/colorAccent"
+            android:layout_alignBaseline="@id/cb_remember_pwd"
+            android:layout_marginEnd="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="NotSibling" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginBottom="32dp">
+        <Button
+            android:id="@+id/bt_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimary"
+            android:layout_margin="32dp"
+            android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
